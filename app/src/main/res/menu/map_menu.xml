@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:android="http://schemas.android.com/apk/res/android">
+
+<item
+    android:id="@+id/Normal_Help"
+    android:title="Normal Help"/>
+
+<item android:title="Urgent Help"
+    android:id="@+id/Urgent_Help"/>
+
+
+    <item android:title="Other Apps1"
+        android:id="@+id/app1"/>
+
+    <item android:title="Other Apps2"
+        android:id="@+id/app2"/>
+
+    <item android:title="Other Apps3"
+        android:id="@+id/app3"/>
+
+
+    <item android:title="Logout"
+        android:id="@+id/map_logout"/>
+
+
+</menu>

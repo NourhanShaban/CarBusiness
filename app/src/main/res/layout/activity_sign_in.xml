@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context="MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView2"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="76dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/background" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="146dp"
+        android:src="@drawable/car" />
+
+    <EditText
+        android:id="@+id/editTextUsernameid"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_alignBottom="@+id/imageView2"
+        android:layout_centerHorizontal="true"
+        android:background="#11FFFFFF"
+        android:drawableLeft="@drawable/ic_action_email"
+        android:drawablePadding="10dp"
+        android:drawableTint="#80FFFFFF"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textPersonName"
+        android:padding="7dp"
+        android:textColorHint="#80FFFFFF" />
+
+    <EditText
+        android:id="@+id/editeTextEmailid"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/editTextUsernameid"
+        android:layout_alignStart="@+id/editTextUsernameid"
+        android:layout_below="@+id/editTextUsernameid"
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@drawable/ic_password"
+        android:drawableTint="#80FFFFFF"
+        android:drawablePadding="0dp"
+        android:padding="7dp"
+        android:background="#11FFFFFF"
+        android:ems="10"
+        android:hint="Password"
+        android:textColorHint="#80FFFFFF"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+
+        android:layout_marginBottom="12dp"
+        android:background="#80424242"
+        android:fontFamily="@font/strslml"
+        android:text="Log in"
+
+        android:textAllCaps="false"
+        android:textColor="#FFCA28"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forget your password?"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/login"
+        android:layout_marginTop="15dp"
+        android:textColor="#FFFFFF"
+        />
+
+
+
+
+</RelativeLayout>
+
